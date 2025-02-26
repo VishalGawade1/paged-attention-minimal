@@ -8,10 +8,8 @@ This repo aims to show, minimally,
 how PagedAttention achieves larger batch sizes and higher request throughput.
 
 To be clear, this is not a from-scratch implementation of PagedAttention. We'll use Flash Attention's 
-PagedAttention kernel, but write our own KV cache manager as 
-Tri Dao [suggests](https://github.com/Dao-AILab/flash-attention/issues/660):
+PagedAttention kernel, but write our own KV cache manager 
 
-![the-primer](assets/the-primer.png)
 
 ## Prereqs
 
